@@ -1,0 +1,11 @@
+name: fraud_env
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - pip
+  - pip:
+    - lightgbm
