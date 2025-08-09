@@ -4,7 +4,7 @@ import requests
 import sqlite3
 from datetime import datetime
 
-API_URL = "http://127.0.0.1:8001/api/predict"
+API_URL = "https://fraud-detection-2-iv4i.onrender.com/"
 DB_PATH = "logs.db"
 
 def init_db():
