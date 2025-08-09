@@ -4,7 +4,7 @@ import requests
 import sqlite3
 from datetime import datetime
 
-API_URL = "http://127.0.0.1:8000/api/predict"
+API_URL = "http://127.0.0.1:8001/api/predict"
 DB_PATH = "logs.db"
 
 def init_db():
